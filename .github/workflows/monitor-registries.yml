@@ -28,7 +28,7 @@ jobs:
   monitor:
     name: Monitor registry health
     if: github.repository == 'shadcn-ui/ui'
-    runs-on: ubuntu-latest
+    runs-on: play-2vcpu
     timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
