@@ -13,7 +13,7 @@ permissions:
 
 jobs:
   stale:
-    runs-on: ubuntu-latest
+    runs-on: play-2vcpu
     if: github.repository_owner == 'shadcn-ui'
     steps:
       - uses: actions/stale@v9

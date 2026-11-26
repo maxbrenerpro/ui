@@ -18,7 +18,7 @@ on:
 
 jobs:
   validate:
-    runs-on: ubuntu-latest
+    runs-on: play-2vcpu
     name: ${{ matrix.package-manager == 'pnpm' && format('pnpm {0}', matrix.pnpm-version) || matrix.package-manager }} ${{ matrix.template }}
     permissions:
       contents: read

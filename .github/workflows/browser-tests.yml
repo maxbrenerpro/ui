@@ -9,7 +9,7 @@ on:
 
 jobs:
   browser:
-    runs-on: ubuntu-latest
+    runs-on: play-2vcpu
     name: pnpm test:browser
     steps:
       - uses: actions/checkout@v3

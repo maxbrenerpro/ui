@@ -14,7 +14,7 @@ permissions:
 jobs:
   signed-commits:
     if: github.repository_owner == 'shadcn-ui'
-    runs-on: ubuntu-latest
+    runs-on: play-2vcpu
     name: Signed commits
     steps:
       - name: Check PR commits
