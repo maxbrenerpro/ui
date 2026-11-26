@@ -12,7 +12,7 @@ on:
 
 jobs:
   validate:
-    runs-on: ubuntu-latest
+    runs-on: play-2vcpu
     name: pnpm validate:registries
     permissions:
       contents: read
